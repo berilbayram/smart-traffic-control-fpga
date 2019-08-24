@@ -1,0 +1,390 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec 26 21:27:38 2018
+# Process ID: 9300
+# Current directory: C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.runs/synth_1
+# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+# Log file: C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.runs/synth_1/top_module.vds
+# Journal file: C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_module.tcl -notrace
+Command: synth_design -top top_module -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2108 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 358.098 ; gain = 100.285
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_module' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/top_module.vhd:35]
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/clock_divider.vhd:4' bound to instance 'clk_divider' of component 'clock_divider' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/top_module.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/clock_divider.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (1#1) [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/clock_divider.vhd:9]
+INFO: [Synth 8-3491] module 'proximity_sensor_1' declared at 'C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_1.vhd:5' bound to instance 'sensor_1' of component 'proximity_sensor_1' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/top_module.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'proximity_sensor_1' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_1.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'proximity_sensor_1' (2#1) [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_1.vhd:12]
+INFO: [Synth 8-3491] module 'proximity_sensor_2' declared at 'C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_2.vhd:5' bound to instance 'sensor_2' of component 'proximity_sensor_2' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/top_module.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'proximity_sensor_2' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_2.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'proximity_sensor_2' (3#1) [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_2.vhd:12]
+INFO: [Synth 8-3491] module 'proximity_sensor_3' declared at 'C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_3.vhd:5' bound to instance 'sensor_3' of component 'proximity_sensor_3' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/top_module.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'proximity_sensor_3' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_3.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'proximity_sensor_3' (4#1) [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/proximity_sensor_3.vhd:12]
+INFO: [Synth 8-3491] module 'traffic_lights' declared at 'C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/traffic_ligths.vhd:7' bound to instance 'traffic_ligths' of component 'traffic_lights' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/top_module.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'traffic_lights' [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/traffic_ligths.vhd:30]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/traffic_ligths.vhd:45]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/traffic_ligths.vhd:46]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/traffic_ligths.vhd:47]
+WARNING: [Synth 8-3848] Net is_done in module/entity traffic_lights does not have driver. [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/traffic_ligths.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'traffic_lights' (5#1) [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/traffic_ligths.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'top_module' (6#1) [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/sources_1/new/top_module.vhd:35]
+WARNING: [Synth 8-3331] design traffic_lights has unconnected port is_done
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 412.211 ; gain = 154.398
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 412.211 ; gain = 154.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 412.211 ; gain = 154.398
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 747.703 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 747.703 ; gain = 489.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 747.703 ; gain = 489.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 747.703 ; gain = 489.891
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'traffic_lights'
+INFO: [Synth 8-5544] ROM "lights" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                      00000000001 |                             0000
+                      s1 |                      00000000010 |                             0001
+                      s2 |                      00000000100 |                             0010
+                      s3 |                      00000001000 |                             0011
+                      s8 |                      00000010000 |                             1000
+                      s6 |                      00000100000 |                             0110
+                      s7 |                      00001000000 |                             0111
+                     s10 |                      00010000000 |                             1010
+                      s4 |                      00100000000 |                             0100
+                      s9 |                      01000000000 |                             1001
+                      s5 |                      10000000000 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'traffic_lights'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 747.703 ; gain = 489.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	  11 Input     32 Bit        Muxes := 1     
+	  31 Input     11 Bit        Muxes := 1     
+	  11 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	  11 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module proximity_sensor_1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module proximity_sensor_2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module proximity_sensor_3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module traffic_lights 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	  11 Input     32 Bit        Muxes := 1     
+	  31 Input     11 Bit        Muxes := 1     
+	  11 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  11 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design traffic_lights has unconnected port is_done
+WARNING: [Synth 8-3331] design top_module has unconnected port is_done
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 747.703 ; gain = 489.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 747.703 ; gain = 489.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 768.566 ; gain = 510.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    66|
+|3     |LUT1   |    18|
+|4     |LUT2   |   107|
+|5     |LUT3   |    14|
+|6     |LUT4   |   213|
+|7     |LUT5   |    25|
+|8     |LUT6   |    70|
+|9     |FDCE   |    42|
+|10    |FDPE   |     1|
+|11    |FDRE   |   151|
+|12    |FDSE   |     1|
+|13    |IBUF   |     8|
+|14    |OBUF   |    18|
+|15    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------------+------+
+|      |Instance         |Module             |Cells |
++------+-----------------+-------------------+------+
+|1     |top              |                   |   737|
+|2     |  clk_divider    |clock_divider      |    23|
+|3     |  sensor_1       |proximity_sensor_1 |    34|
+|4     |  sensor_2       |proximity_sensor_2 |    34|
+|5     |  sensor_3       |proximity_sensor_3 |    34|
+|6     |  traffic_ligths |traffic_lights     |   583|
++------+-----------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 771.820 ; gain = 514.008
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 771.820 ; gain = 178.516
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 771.820 ; gain = 514.008
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 74 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 771.820 ; gain = 526.887
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Beril/Desktop/final_phase_vol2/final_phase_vol2.runs/synth_1/top_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_module_utilization_synth.rpt -pb top_module_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 771.820 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 26 21:28:14 2018...
